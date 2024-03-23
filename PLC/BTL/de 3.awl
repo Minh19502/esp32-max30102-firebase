@@ -1,0 +1,63 @@
+ORGANIZATION_BLOCK MAIN:OB1
+TITLE=PROGRAM COMMENTS
+BEGIN
+Network 1 // Network Title
+// Network Comment
+LD     SM0.0
+TODR   VB0
+Network 2 
+LDB<>  VB7, 1
+LDB=   VB3, 7
+AB=    VB4, 0
+AB<=   VB5, 30
+LDB=   VB3, 7
+AB=    VB4, 50
+AB<=   VB5, 30
+OLD
+LDB=   VB3, 7
+AB=    VB4, 55
+AB<=   VB5, 30
+OLD
+LDB=   VB3, 8
+AB=    VB4, 45
+AB<=   VB5, 30
+OLD
+LDB=   VB3, 8
+AB=    VB4, 50
+AB<=   VB5, 30
+OLD
+LDB=   VB3, 9
+AB=    VB4, 40
+AB<=   VB5, 30
+OLD
+LDB=   VB3, 9
+AB=    VB4, 45
+AB<=   VB5, 30
+OLD
+LDB=   VB3, 10
+AB=    VB4, 35
+AB<=   VB5, 30
+OLD
+LDB=   VB3, 10
+AB=    VB4, 40
+AB<=   VB5, 30
+OLD
+LDB=   VB3, 11
+AB=    VB4, 30
+AB<=   VB5, 30
+OLD
+ALD
+=      Q0.0
+END_ORGANIZATION_BLOCK
+SUBROUTINE_BLOCK SBR_0:SBR0
+TITLE=SUBROUTINE COMMENTS
+BEGIN
+Network 1 // Network Title
+// Network Comment
+END_SUBROUTINE_BLOCK
+INTERRUPT_BLOCK INT_0:INT0
+TITLE=INTERRUPT ROUTINE COMMENTS
+BEGIN
+Network 1 // Network Title
+// Network Comment
+END_INTERRUPT_BLOCK
