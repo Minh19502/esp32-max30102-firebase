@@ -18,14 +18,14 @@
 #include "addons/RTDBHelper.h"
 
 // Insert your network credentials
-#define WIFI_SSID "P502"
-#define WIFI_PASSWORD "20032002@"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyBME-Ez7_5SugKa1xcdo6VHPdKi_VNVrzc"
+#define API_KEY ""
 
 // Insert RTDB URLefine the RTDB URL */
-#define DATABASE_URL "https://esp32-firebase-demo-8be1d-default-rtdb.asia-southeast1.firebasedatabase.app/" 
+#define DATABASE_URL "" 
 
 //Define Firebase Data object
 FirebaseData fbdo;
